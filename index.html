@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>أحمد علي العسقلاني | استشاري تدريب وتطوير</title>
+<style>
+:root{--bg:#f7f5ee;--surface:#fff;--text:#0b1f3a;--muted:#55627a;--accent:#0b2447;--accent-ink:#fff;--gold:#c9a227;--line:#e5dfcc;--soft:#f4ecd3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#081428;--surface:#0f2244;--text:#f4efe0;--muted:#aab4c8;--accent:#e3bd4c;--accent-ink:#081428;--gold:#e3bd4c;--line:#223a68;--soft:#13294f}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#081428;--surface:#0f2244;--text:#f4efe0;--muted:#aab4c8;--accent:#e3bd4c;--accent-ink:#081428;--gold:#e3bd4c;--line:#223a68;--soft:#13294f}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Tajawal","Segoe UI",Tahoma,sans-serif;line-height:1.8}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:12px 0}
+.brand{font-weight:700;font-size:1.15rem;color:var(--accent)}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:var(--text);text-decoration:none;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+.hero{padding:56px 0 40px;display:grid;grid-template-columns:1fr 280px;gap:36px;align-items:center}
+.hero h1{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 6px;line-height:1.3}
+.hero h2{font-size:1.05rem;color:var(--accent);margin:0 0 16px;font-weight:600}
+.hero p{color:var(--muted);margin:0 0 22px}
+.photo{aspect-ratio:1;border-radius:24px;background:var(--soft);border:1px solid var(--line);display:grid;place-items:center;color:var(--muted);font-size:.9rem;text-align:center}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:10px 22px;border-radius:999px;text-decoration:none;font-weight:600}
+.btn.alt{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+section{padding:44px 0;border-top:1px solid var(--line)}
+section h3{font-size:1.5rem;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card b{display:block;color:var(--accent);margin-bottom:6px}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.news{display:grid;gap:16px}
+.post{display:grid;grid-template-columns:140px 1fr;gap:20px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
+.thumb{aspect-ratio:1;border-radius:12px;background:var(--soft);display:grid;place-items:center;color:var(--muted);font-size:.85rem}
+.post time{font-size:.85rem;color:var(--muted)}
+.post h4{margin:2px 0 6px;font-size:1.1rem}
+.post p{margin:0 0 8px;color:var(--muted);font-size:.95rem}
+.post a{color:var(--accent);font-weight:600;text-decoration:none}
+@media(max-width:520px){.post{grid-template-columns:1fr}.thumb{max-width:140px}}
+header{background:#0b2447;border-bottom:3px solid var(--gold)}
+header nav a{color:#f4efe0}
+header nav a:hover{color:var(--gold)}
+header .brand{color:var(--gold);letter-spacing:.3px}
+section h3::after{content:"";display:block;width:56px;height:3px;background:var(--gold);margin-top:8px}
+.card{border-top:3px solid var(--gold)}
+.photo{border:2px solid var(--gold);overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block}
+.btn:hover{background:var(--gold);color:#0b2447}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;padding:0 0 44px}
+.stat{text-align:center;background:#0b2447;color:#f4efe0;border-radius:16px;padding:20px 10px;border-bottom:3px solid var(--gold);font-size:.9rem}
+.stat strong{display:block;font-size:2rem;color:var(--gold);line-height:1.3}
+.fm{display:grid;gap:12px;flex:1;min-width:260px}
+.fm input,.fm textarea{font:inherit;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--text);width:100%}
+body footer{background:#0b2447;color:#cfd6e4;border-top:3px solid var(--gold)}
+.price{font-size:.85rem;color:var(--accent);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tags span{background:var(--soft);color:var(--accent);padding:6px 16px;border-radius:999px;font-size:.92rem}
+ul.list{padding-inline-start:20px;margin:0;color:var(--muted)}
+ul.list li{margin-bottom:6px}
+.contact{background:var(--soft);border-radius:20px;padding:28px;display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+footer{padding:28px 0;color:var(--muted);font-size:.85rem;text-align:center;border-top:1px solid var(--line)}
+.prof{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start}
+@media(max-width:720px){.prof{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.photo{max-width:220px}}
+html,body{overflow-x:hidden;max-width:100%}
+body{overflow-wrap:break-word}
+img,svg{max-width:100%}
+.wrap,.wrap.bar{padding-inline:max(20px,env(safe-area-inset-right,0px),env(safe-area-inset-left,0px))}
+.hero>*,.prof>*,.post>*,.grid>*,.contact>*{min-width:0}
+.grid{grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr))}
+.stats{grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr))}
+.fm{min-width:min(260px,100%)}
+@media(max-width:900px){.prof{grid-template-columns:1fr}.hero{grid-template-columns:1fr;padding-top:32px}.photo{max-width:260px}}
+.thumb{aspect-ratio:2/3;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.social{display:flex;gap:10px;align-items:center}
+.social a{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;border:1.5px solid #c9a227;color:#e3bd4c;text-decoration:none;transition:.2s}
+.social a:hover{background:#e3bd4c;color:#0b2447}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+<div class="brand">أحمد العسقلاني | استشاري تدريب وتطوير</div>
+<nav><a href="#about">نبذة</a><a href="#value">ما أقدّمه</a><a href="#services">الخدمات</a><a href="#resources">منصاتي</a><a href="#news">الأخبار</a><a href="#contact">تواصل</a></nav><div class="social"><a href="https://wa.me/201000155857" target="_blank" rel="noopener" aria-label="واتساب" title="واتساب"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a><a href="https://www.facebook.com/ahmed.ali.237067" target="_blank" rel="noopener" aria-label="فيسبوك" title="فيسبوك"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a><a href="https://www.linkedin.com/in/ahmedalasklany" target="_blank" rel="noopener" aria-label="لينكدإن" title="لينكدإن"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></div>
+</div></header>
+
+<main class="wrap">
+<div class="hero" id="top">
+<div>
+<h1>أحمد علي العسقلاني</h1>
+<h2>ميسر التوجيه والإرشاد المهني | استشاري التدريب والتطوير</h2>
+<p>متخصص في التعليم والتدريب والتوجيه والإرشاد المهني، بخبرة تتجاوز خمسة عشر عامًا في التدريس وتنمية المعلمين وتصميم البرامج التدريبية ودعم الطلاب في التخطيط لمساراتهم التعليمية والمهنية، مع اهتمام بتوظيف الذكاء الاصطناعي في التعليم والتدريب.</p>
+<a class="btn" href="#about">الملف الشخصي</a> <a class="btn alt" href="#contact">احجز جلسة</a>
+</div>
+<div class="photo"><img src="images/ahmed.jpg" alt="أحمد علي العسقلاني"></div>
+</div>
+
+<div class="stats"><div class="stat"><strong>+١٥</strong>سنة خبرة</div><div class="stat"><strong>١٠</strong>شهادات مهنية</div><div class="stat"><strong>٣</strong>مؤهلات جامعية</div><div class="stat"><strong>١</strong>بحث علمي مقدّم في مؤتمر</div></div>
+
+<section id="value">
+<h3>القيمة التي أقدّمها</h3>
+<div class="grid">
+<div class="card"><b>٠١ | التدريب وبناء القدرات</b><p>تصميم البرامج التدريبية وتنفيذها ومتابعتها مع مجموعات كبيرة.</p></div>
+<div class="card"><b>٠٢ | تنمية المهارات المهنية</b><p>التوجيه المهني وتحديد نقاط القوة ووضع الأهداف والتخطيط الوظيفي.</p></div>
+<div class="card"><b>٠٣ | تدريب المدرّبين والمعلمين</b><p>فهم احتياجات المتدربين وتصميم تجارب تدريبية تناسب مستواهم.</p></div>
+<div class="card"><b>٠٤ | الحقائب والمحتوى التدريبي</b><p>إعداد الأدلة والأنشطة وأدوات التقييم والمحتوى التعليمي.</p></div>
+<div class="card"><b>٠٥ | التقنية والذكاء الاصطناعي</b><p>توظيف أدوات الذكاء الاصطناعي في التعلّم وصناعة المحتوى.</p></div>
+</div>
+</section>
+
+<section id="services">
+<h3>الخدمات</h3>
+<div class="grid">
+<div class="card"><b>برامج تدريبية</b><p>تصميم وتنفيذ برامج لبناء القدرات، حضوريًا أو عن بُعد.</p><br><span class="price">حسب الطلب</span></div>
+<div class="card"><b>تدريب المدرّبين</b><p>تأهيل المدرّبين على مهارات التدريب وتصميم التجارب التعليمية.</p><br><span class="price">حسب الطلب</span></div>
+<div class="card"><b>التطوير المهني للمعلمين</b><p>ورش وبرامج لرفع كفاءة المعلمين والقيادات التربوية.</p><br><span class="price">حسب الطلب</span></div>
+<div class="card"><b>الحقائب والمحتوى التدريبي</b><p>إعداد أدلة وأنشطة وأدوات تقييم ومحتوى جاهز للاستخدام.</p><br><span class="price">حسب الطلب</span></div>
+<div class="card"><b>التوجيه المهني</b><p>جلسات فردية لاكتشاف نقاط القوة ورسم المسار الوظيفي.</p><br><span class="price">حسب الطلب</span></div>
+<div class="card"><b>بنوك الأسئلة</b><p>تطوير بنوك أسئلة ومحتوى تعليمي وفق المعايير.</p><br><span class="price">حسب الطلب</span></div>
+</div>
+<p style="margin-top:20px"><a class="btn" href="#contact">اطلب خدمة</a></p>
+</section>
+
+<section id="about">
+<h3>الملف الشخصي</h3>
+<div class="prof">
+<aside>
+<div class="photo" style="margin-bottom:16px"><img src="images/ahmed.jpg" alt="أحمد علي العسقلاني"></div>
+<div class="card" style="margin-bottom:16px"><b>المؤهلات العلمية</b><ul class="list"><li>ليسانس اللغة العربية وآدابها — جامعة أسيوط</li><li>الدبلوم العام في التربية — جامعة أسيوط</li><li>الدبلوم المهني في المناهج وطرق التدريس — جامعة أسيوط</li></ul></div>
+<div class="card"><b>التواصل</b><ul class="list"><li>enahmed4@gmail.com</li><li>01000155857</li><li><a href="https://counselor2024.blogspot.com" style="color:var(--accent)">مدونة مستشارك المهني</a></li></ul></div>
+</aside>
+<div>
+<div class="card" style="margin-bottom:16px"><b>الملخص المهني</b><p>شارك في تنفيذ برامج تطوير التعليم وتدريب المعلمين، وأسهم في تقديم خدمات المشورة المهنية للطلاب، ويهتم بإنتاج محتوى مهني وتربوي يدعم المتعلمين والمعلمين على حد سواء.</p></div>
+<div class="card" style="margin-bottom:16px"><b>الخبرات المهنية</b><ul class="list">
+<li><strong>ميسّر توجيه وإرشاد مهني ومقدّم خدمات مهنية</strong> — مدرسة أحمد ضيف الله الدولية للتكنولوجيا التطبيقية (٢٠٢٣ – حتى الآن)</li>
+<li><strong>معلم لغة عربية وتربية إسلامية</strong> — المدرسة نفسها (٢٠٢٣ – حتى الآن)</li>
+<li><strong>مدرّب ومنسّق تدريب</strong> — إدارة أسيوط التعليمية (٢٠٢٠ – ٢٠٢١)</li>
+<li><strong>مدرّب بمشروع تطوير التعليم 2.0</strong></li></ul></div>
+<div class="card" style="margin-bottom:16px"><b>الشهادات المهنية</b><div class="tags" style="margin-top:8px"><span>دبلوم استشاري تدريب وتطوير</span><span>الدبلوم الدولي في التربية</span><span>ماجستير مصغّر في الاستراتيجيات الحديثة</span><span>ماجستير مصغّر في الإرشاد التربوي</span><span>الزمالة الأمريكية في تدريس العربية</span><span>مقدّم خدمات المشورة المهنية</span><span>سفراء الذكاء الاصطناعي</span><span>ICDL</span><span>Microsoft Innovative Educator Expert</span></div></div>
+<div class="card" style="margin-bottom:16px"><b>الإنجازات المهنية</b><ul class="list"><li>المشاركة في برامج تدريب المعلمين ضمن مشروعات تطوير التعليم.</li><li>تقديم جلسات مشورة مهنية فردية وجماعية للطلاب.</li><li>تصميم حقائب وبرامج تدريبية في التعليم والتوجيه المهني.</li><li>توظيف أدوات الذكاء الاصطناعي في التعليم والتدريب.</li><li>الإشراف على أنشطة ومبادرات تعليمية ومهنية للطلاب.</li></ul></div>
+<div class="card" style="margin-bottom:16px"><b>الأبحاث والنشر</b><ul class="list"><li>بحث «السرد القصصي وأثره في العملية التعليمية» — مؤتمر مدر الضاد.</li><li>مقالات ودراسات تربوية ومهنية على منصة أريد.</li><li>مؤسس ومدير مدونة «مستشارك المهني».</li></ul></div>
+<div class="card"><b>المهارات</b><div class="tags" style="margin-top:8px"><span>التوجيه والإرشاد المهني</span><span>التدريب والتطوير</span><span>تصميم الحقائب التدريبية</span><span>التيسير والعرض</span><span>بناء المسارات المهنية</span><span>الذكاء الاصطناعي في التعليم</span><span>أدوات التقييم والاختبارات</span><span>إدارة المبادرات التعليمية</span></div></div>
+</div>
+</div>
+</section>
+
+<section id="resources">
+<h3>منصاتي ومحتواي</h3>
+<div class="grid">
+<div class="card"><b>مدونة مستشارك المهني</b><p>محتوى متخصص في التوجيه والإرشاد المهني والتطوير المهني للطلاب والمعلمين.</p><br><a class="btn alt" href="https://counselor2024.blogspot.com">زيارة المدونة</a></div>
+<div class="card"><b>مدونتي بمنصة أريد</b><p>مدونة «هندسة المستقبل المهني» ومقالات ودراسات تربوية ومهنية أنشرها على منصة أريد العلمية.</p><br><a class="btn alt" href="https://portal.arid.my/ar-LY/Blogs/Details/13454">زيارة المدونة</a></div>
+<div class="card"><b>صفحة العسقلاني للتدريب والاستشارات</b><p>صفحتي على فيسبوك لبرامج التدريب والخدمات الاستشارية وآخر المستجدات.</p><br><a class="btn alt" href="https://www.facebook.com/AlasqalaniConsulting/">زيارة الصفحة</a></div>
+</div>
+</section>
+
+<section id="news">
+<h3>الأخبار والفعاليات</h3>
+<div class="news" id="newsList"></div>
+</section>
+
+<section id="contact">
+<div class="contact">
+<div><h3 style="margin:0 0 6px">لنتحدث</h3><div style="color:var(--muted)">البريد: enahmed4@gmail.com<br>الهاتف: 01000155857</div></div>
+<div class="fm"><input id="fn" placeholder="الاسم"><input id="fe" placeholder="البريد الإلكتروني"><textarea id="fm" rows="4" placeholder="رسالتك"></textarea><button class="btn" style="border:0;cursor:pointer;font:inherit" onclick="sendMail()">أرسل الرسالة</button></div>
+</div>
+</section>
+</main>
+<footer><div class="social" style="justify-content:center;margin-bottom:12px"><a href="https://wa.me/201000155857" target="_blank" rel="noopener" aria-label="واتساب" title="واتساب"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a><a href="https://www.facebook.com/ahmed.ali.237067" target="_blank" rel="noopener" aria-label="فيسبوك" title="فيسبوك"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a><a href="https://www.linkedin.com/in/ahmedalasklany" target="_blank" rel="noopener" aria-label="لينكدإن" title="لينكدإن"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></div>© ٢٠٢٦ أحمد علي العسقلاني — جميع الحقوق محفوظة</footer>
+<script>function sendMail(){var v=function(i){return document.getElementById(i).value};var b='الاسم: '+v('fn')+'\nالبريد: '+v('fe')+'\n\n'+v('fm');location.href='mailto:enahmed4@gmail.com?subject='+encodeURIComponent('رسالة من الموقع')+'&body='+encodeURIComponent(b)}</script>
+<script src="news.js"></script>
+<script>
+(function(){
+var box=document.getElementById('newsList');
+if(!box||typeof NEWS==='undefined')return;
+NEWS.forEach(function(n){
+var a=document.createElement('article');a.className='post';
+var t=document.createElement('div');t.className='thumb';
+if(n.image){var im=document.createElement('img');im.src=n.image;im.alt=n.title;t.appendChild(im);}
+else{t.style.cssText='background:#0b2447;color:#c9a227;font-size:2.6rem';t.textContent='\u{1F4F0}';}
+var b=document.createElement('div');
+var d=document.createElement('time');d.textContent=n.date||'';b.appendChild(d);
+var h4=document.createElement('h4');h4.textContent=n.title;b.appendChild(h4);
+(n.text||[]).forEach(function(s){var p=document.createElement('p');p.textContent=s;b.appendChild(p);});
+if(n.link&&n.link.url){var l=document.createElement('a');l.href=n.link.url;l.target='_blank';l.rel='noopener';l.textContent=n.link.label||'اقرأ المزيد';b.appendChild(l);}
+a.appendChild(t);a.appendChild(b);box.appendChild(a);
+});
+})();
+</script>
+</body>
+</html>
